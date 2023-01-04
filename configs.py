@@ -1,4 +1,4 @@
-import os
+<import os
 # from dotenv import load_dotenv
 
 # load_dotenv()
@@ -14,7 +14,7 @@ class Config(object):
     BOT_USERNAME = os.getenv("BOT_USERNAME", "MdiskSearchV1")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "5183104181"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "SHOKDHAR12")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "1001862422678")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "-1001862422678")
 #    GROUP_USERNAME = os.getenv("SHOKDHAR12")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
 
