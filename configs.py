@@ -5,17 +5,17 @@
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "23098568"))
-    API_HASH = os.getenv("API_HASH", "cb7098aa919c29da3e5f9af0f9086dd7")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5822772640:AAHF8-CtuVj-M3pAxt14JBxt3v6MU4JNFig")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "MdiskSearchV1")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "BQAiv_1DoPO9diQSRA5ogmmv0RV0sTQ_fb1pkkA7XdWXbeUrOTi5sLOMBkPNAzfngvJDx7bukaLmvW2Eidi1nhHebFj1DJhBtkpKSi1Geui_Eqndu6WDX6uXdFNQF43pAN8bn6cCV40LR9KHKkbrAsnjL-Q4AJwVg5EyeC8MEacl4Ie7iXVEadkFIPjWp4SdQU9CClPkWaEOsnPq2NAs82KEUlm2KI00W-vy8IdIMOLbBJgO_v70lf-3CfDIUA5k8lGncEoEHjodVY1a9ysM_wvNPzOnIZShxOx00U27dSWigpep9vDa_h0ndHVssKbpkLSG9aclBXK2znAB3m4942xeAAAAATTv5LUA")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001692955123")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "MdiskSearchV1")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "5183104181"))
-#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "SHOKDHAR12")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "-1001862422678")
-#    GROUP_USERNAME = os.getenv("SHOKDHAR12")
+    API_ID = int(os.getenv("API_ID", ""))
+    API_HASH = os.getenv("API_HASH", "")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "DiskDomBot")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "")) 
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "DiskDomBot")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "id"))
+#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "")
+#    GROUP_USERNAME = os.getenv("Group_Name")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
 
 I ᴀᴍ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Rᴏʙᴏᴛ 🔍.
@@ -23,18 +23,18 @@ I ᴀᴍ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Rᴏʙᴏᴛ 🔍.
 I Wɪʟʟ Pʀᴏᴠɪᴅᴇ Eᴠᴇʀʏ Mᴏᴠɪᴇ Iɴ Mᴅɪsᴋ Lɪɴᴋ 🔗
 
 Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" ) 
-    START_PHOTO = os.getenv("START_PHOTO", "https://telegra.ph/file/7d357b72c29a6aa21fb78.jpg")
+    START_PHOTO = os.getenv("START_PHOTO", "https://telegra.ph/file/9a67d1fb0bc179b764cef.jpg")
     HOME_TEXT = os.getenv("HOME_TEXT", """ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕
 
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ.
 
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅""" )
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001870810340")
-    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://shok123:<shok123>@cluster0.yxyorfu.mongodb.net/?retryWrites=true&w=majority")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001870810340"))
-    RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 20))
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "")
+    DATABASE_URL = os.getenv("DATABASE_URL", "")
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", ""))
+    RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 10))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
-    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "updateschannel1")
+    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "")
     FORCE_SUB = os.getenv("FORCE_SUB", "False")
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 180))
     MDISK_API = os.getenv("MDISK_API", "Qu7jX9V0Sn3q1JHdxjPp")
@@ -45,7 +45,7 @@ Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" )
 
 i ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ.
 
-ᴅᴍ ꜰᴏʀ ᴀɴʏ Qᴜᴇʀʏ @Chart_122122_bot 🤖""" )
+ᴅᴍ ꜰᴏʀ ᴀɴʏ Qᴜᴇʀʏ @CyniteTech 🤖""" )
     ABOUT_WATCH_TEXT = """
 ʜᴇʏ ʙᴜᴅᴅʏ, 
 
@@ -54,9 +54,9 @@ i ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅ
 
 ᴛᴇʀᴀ ʙᴏx - ᴀɢᴀʀ ᴀᴘᴘᴋᴏ ɴᴀʜɪ ᴘᴀᴛᴀ ᴋɪ ᴛᴇʀᴀʙᴏx sᴇ ᴍᴏᴠɪᴇs ᴋᴀɪsᴇ ᴅᴇᴋʜᴇ ᴛᴏ ɴɪᴄʜᴇ ᴅɪʏᴇ ɢᴀʏᴇ ᴛᴇʀᴀ ʙᴏx ʙᴜᴛᴛᴏɴ ᴘᴀʀ ᴄʟɪᴄᴋ ᴋᴀʀᴇ
 
-ʀᴇɢᴀʀᴅs - @updatesbot1"""
+ʀᴇɢᴀʀᴅs - @CyniteTech"""
     ABOUT_MDISK_TEXT = """
-𝗠𝗱𝗶𝘀𝗸 𝗸𝗶 𝗹𝗶𝗻𝗸𝘀 𝗢𝗽𝗲𝗻 𝗔𝗶𝘀𝗲 𝗞𝗮𝗿𝗲👇🔥
+𝗠𝗱𝗶𝘀𝗸 𝗸𝗶 𝗹𝗶𝗻𝗸𝘀 𝗢𝗽𝗲𝗻 𝗔𝗶𝘀𝗲 𝗞𝗮𝗿𝗲 ☟︎
 वीडियो प्ले करने में कोई प्रोब्लम अ रही हो तो Mx Player App डाउनलोड करले😊👍
 
 1) 𝘔𝘥𝘪𝘴𝘬 𝘬𝘪 𝘭𝘪𝘯𝘬 𝘱𝘦𝘳 𝘤𝘭𝘪𝘤𝘬 𝘬𝘢𝘳𝘦 𝘶𝘴𝘬𝘦 𝘣𝘢𝘢𝘥 1 𝘱𝘢𝘨𝘦 𝘬𝘩𝘶𝘭𝘦𝘨𝘢. 💜
@@ -71,7 +71,7 @@ i ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅ
 
 6)𝘕𝘢𝘩𝘪 𝘛𝘰 𝘈𝘱𝘱 𝘕𝘪𝘤𝘩𝘦 𝘋𝘪𝘺𝘦 𝘎𝘢𝘺𝘦 Watch Video 𝘗𝘢𝘳 𝘊𝘭𝘪𝘤𝘬 𝘒𝘢𝘳𝘬𝘦 𝘗𝘶𝘳𝘢 𝘚𝘵𝘦𝘱 𝘓𝘪𝘷𝘦 𝘗𝘩𝘰𝘵𝘰 𝘔𝘦 𝘋𝘦𝘬𝘩 𝘚𝘬𝘢𝘵𝘦 𝘏𝘢𝘪😇"""
     ABOUT_TERABOX_TEXT = """
-𝗧𝗲𝗿𝗮𝗕𝗼𝘅 𝗸𝗶 𝗹𝗶𝗻𝗸𝘀 𝗢𝗽𝗲𝗻 𝗔𝗶𝘀𝗲 𝗞𝗮𝗿𝗲👇🔥
+𝗧𝗲𝗿𝗮𝗕𝗼𝘅 𝗸𝗶 𝗹𝗶𝗻𝗸𝘀 𝗢𝗽𝗲𝗻 𝗔𝗶𝘀𝗲 𝗞𝗮𝗿e ☟︎
 वीडियो प्ले करने में कोई प्रोब्लम अ रही हो तो इक बार रजिस्ट्रेशन कर ले फिर आप बिना एड के विडियो अच्छे से चला पाएंगे थैंक्यू 😊👍
 
 https://terabox.com/s/1QZGvLaoU_VMaSCDT2NNvOQ
@@ -108,7 +108,7 @@ https://terabox.com/s/1QZGvLaoU_VMaSCDT2NNvOQ
 
 ᴀɢᴀʀ ʙᴏᴛ ᴀᴅᴍɪɴ ᴀᴘᴋᴀ ʀᴇQᴜᴇꜱᴛ ᴀᴄᴄᴇᴘᴛ ɴʜɪ ᴋᴀʀ ʀᴀʜᴇ ʜᴀɪɴ ᴛᴏ ᴜɴʜᴇ ᴘᴇʀꜱᴏɴᴀʟ ᴍꜱɢ ᴋᴀʀᴇɴ.
 
-👉 @Chart_122122_bot
+☞︎ @CyniteTech
 
 """
 
